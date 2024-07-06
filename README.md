@@ -21,3 +21,18 @@ Allows users to traverse directories and files.
 ### GUI
 a desktop environment is  a graphical shell with icons and items allowing the user to more naturally interact with
 the computer.
+
+
+### Computer Startup
+Bios launches
+legacy booting: loads block of data until it finds signatures.
+EFI: looks for EFI partition on each device.
+
+directive: give clue about how to interpret our code.
+
+
+### INSTRUCTIONS AND DEFINITIONS
+Main: main method where code exectution starts?
+HLT: halt. or wait.
+JMP: jump, similar to what happens when a loop goes back to its original location or loop start.
+DB: define bytes, writes bytes to file.
