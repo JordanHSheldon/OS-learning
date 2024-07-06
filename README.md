@@ -36,3 +36,7 @@ Main: main method where code exectution starts?
 HLT: halt. or wait.
 JMP: jump, similar to what happens when a loop goes back to its original location or loop start.
 DB: define bytes, writes bytes to file.
+
+### COMMANDS
+qemu-system-i386 -fda build/main_floppy.img: start up virtualization env of our OS
+make: build OS
